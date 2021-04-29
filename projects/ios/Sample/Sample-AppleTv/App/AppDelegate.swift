@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        initializeSdk()
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 
@@ -45,6 +46,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 
+    func initializeSdk() {
+        // logger
+        EZRLogger.shared()?.setPlatformService(EZRLoggerPlatformServiceImpl())
 
+        #if DEBUG
+            EZRLogger.shared()?.setLevel(EZRLoggerLevel.verbose)
+        #else
+            EZRLogger.shared()?.setLevel(EZRLoggerLevel.error)
+        #endif
+
+        // shared data
+        EZRSharedData.shared()?.setPlatformService(EZRSharedDataPlatformServiceImpl())
+
+        // http client (uncomment to use platform http client)
+        EZRHttpClient.shared()?.setPlatformService(EZRHttpClientPlatformServiceImpl())
+
+        // file helper
+        EZRFileHelper.shared()?.setPlatformService(EZRFileHelperPlatformServiceImpl())
+
+        // core
+        let basePath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+
+        let screenBounds = UIScreen.main.bounds
+        let screenScale = UIScreen.main.scale
+        let language = EnvironmentUtil.getCurrentLanguageCode()
+        let countryCode = EnvironmentUtil.getCurrentRegionCode()
+
+        let initializationData = EZRDomainInitializationData(
+            appId: Bundle.main.bundleIdentifier!,
+            name: EnvironmentUtil.getAppName(),
+            basePath: basePath,
+            databaseMigrationMaxVersion: 0,
+            debug: false
+        )
+
+        let deviceData = EZRDomainDeviceData(
+            uniqueIdentifier: EnvironmentUtil.getDeviceId(),
+            name: UIDevice.current.name,
+            systemName: UIDevice.current.systemName,
+            systemVersion: UIDevice.current.systemVersion,
+            model: UIDevice.current.model,
+            localizedModel: UIDevice.current.localizedModel,
+            appVersion: EnvironmentUtil.getAppVersion(),
+            appShortVersion: EnvironmentUtil.getAppShortVersion(),
+            appName: EnvironmentUtil.getAppName(),
+            screenWidth: Float(screenBounds.width),
+            screenHeight: Float(screenBounds.height),
+            screenScale: Float(screenScale),
+            systemOsName: "ios",
+            language: language,
+            imei: "",
+            region: countryCode
+        )
+
+        EZRCoreApplicationCore.shared()?.initialize(initializationData, deviceData: deviceData)
+    }
 }
 

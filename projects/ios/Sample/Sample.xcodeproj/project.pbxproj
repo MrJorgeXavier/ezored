@@ -85,6 +85,7 @@
 		AB57867C263B14FA00558651 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F23262214A7A800A2FB4F /* Localizable.strings */; };
 		AB578686263B15D900558651 /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E18D426372A7200225E57 /* ViewModelState.swift */; };
 		AB578687263B15D900558651 /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E18D426372A7200225E57 /* ViewModelState.swift */; };
+		AB5786C8263B512E00558651 /* EnvironmentUtil+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5786C7263B512E00558651 /* EnvironmentUtil+tvOS.swift */; };
 		AB9E18832637199600225E57 /* SimpleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8822162760005E6BD0 /* SimpleOption.swift */; };
 		AB9E1887263719A500225E57 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8122162454005E6BD0 /* Enums.swift */; };
 		AB9E188F263719E400225E57 /* StringsLocalizedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F22214A57D00A2FB4F /* StringsLocalizedExtension.swift */; };
@@ -231,6 +232,7 @@
 		AB5785A6263A0A6700558651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5785A8263A0A6700558651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB578681263B157800558651 /* Sample-AppleTv-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-AppleTv-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB5786C7263B512E00558651 /* EnvironmentUtil+tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentUtil+tvOS.swift"; sourceTree = "<group>"; };
 		AB9E18B126371C7400225E57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AB9E18C52637238400225E57 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AB9E18D426372A7200225E57 /* ViewModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelState.swift; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 				AB5785A8263A0A6700558651 /* Info.plist */,
 				AB578681263B157800558651 /* Sample-AppleTv-Bridging-Header.h */,
 				AB57859C263A0A6500558651 /* AppDelegate.swift */,
+				AB5786C7263B512E00558651 /* EnvironmentUtil+tvOS.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -1023,6 +1026,7 @@
 				AB578645263B14CD00558651 /* SwiftColorsExtension.swift in Sources */,
 				AB578687263B15D900558651 /* ViewModelState.swift in Sources */,
 				AB578672263B14E600558651 /* EnvironmentUtil.swift in Sources */,
+				AB5786C8263B512E00558651 /* EnvironmentUtil+tvOS.swift in Sources */,
 				AB57859D263A0A6500558651 /* AppDelegate.swift in Sources */,
 				AB578668263B14E100558651 /* SimpleOption.swift in Sources */,
 				AB578654263B14D600558651 /* StringBase64Extension.swift in Sources */,

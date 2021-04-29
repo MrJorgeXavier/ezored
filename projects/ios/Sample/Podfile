@@ -1,6 +1,7 @@
 # variables
 IOS_PLATFORM = '9.0'
 WATCHOS_PLATFORM = '6.2'
+TVOS_PLATFORM = '13.0'
 EZORED_SDK_LOCAL = false
 EZORED_SDK_VERSION = '1.0.0'
 
@@ -25,6 +26,11 @@ end
 
 target 'Sample-AppleWatch Extension' do
   platform :watchos, WATCHOS_PLATFORM
+  shared_pods
+end
+
+target 'Sample-AppleTv' do
+  platform :tvos, TVOS_PLATFORM
   shared_pods
 end
 

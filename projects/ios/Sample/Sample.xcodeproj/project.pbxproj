@@ -71,6 +71,20 @@
 		AB5785A1263A0A6700558651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5785A0263A0A6700558651 /* Assets.xcassets */; };
 		AB5785A4263A0A6700558651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5785A3263A0A6700558651 /* Preview Assets.xcassets */; };
 		AB5785A7263A0A6700558651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5785A5263A0A6700558651 /* LaunchScreen.storyboard */; };
+		AB578645263B14CD00558651 /* SwiftColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22ED2214A57D00A2FB4F /* SwiftColorsExtension.swift */; };
+		AB57864A263B14D000558651 /* StringsLocalizedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F22214A57D00A2FB4F /* StringsLocalizedExtension.swift */; };
+		AB57864F263B14D300558651 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22E42214A57D00A2FB4F /* StringExtensions.swift */; };
+		AB578654263B14D600558651 /* StringBase64Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22DF2214A57D00A2FB4F /* StringBase64Extension.swift */; };
+		AB578659263B14D900558651 /* UIImageTintedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F52214A57D00A2FB4F /* UIImageTintedExtension.swift */; };
+		AB57865E263B14DB00558651 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F42214A57D00A2FB4F /* CollectionExtensions.swift */; };
+		AB578663263B14DD00558651 /* DateTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8322162556005E6BD0 /* DateTimeUtil.swift */; };
+		AB578668263B14E100558651 /* SimpleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8822162760005E6BD0 /* SimpleOption.swift */; };
+		AB57866D263B14E400558651 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8122162454005E6BD0 /* Enums.swift */; };
+		AB578672263B14E600558651 /* EnvironmentUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F92214A57D00A2FB4F /* EnvironmentUtil.swift */; };
+		AB578677263B14E900558651 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5784AF263771F800558651 /* SharedAssets.xcassets */; };
+		AB57867C263B14FA00558651 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F23262214A7A800A2FB4F /* Localizable.strings */; };
+		AB578686263B15D900558651 /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E18D426372A7200225E57 /* ViewModelState.swift */; };
+		AB578687263B15D900558651 /* ViewModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E18D426372A7200225E57 /* ViewModelState.swift */; };
 		AB9E18832637199600225E57 /* SimpleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8822162760005E6BD0 /* SimpleOption.swift */; };
 		AB9E1887263719A500225E57 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA2D8122162454005E6BD0 /* Enums.swift */; };
 		AB9E188F263719E400225E57 /* StringsLocalizedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F22F22214A57D00A2FB4F /* StringsLocalizedExtension.swift */; };
@@ -95,6 +109,7 @@
 		ABCDC227261D22FF00BEEF5C /* EnvironmentUtil+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDC226261D22FF00BEEF5C /* EnvironmentUtil+watchOS.swift */; };
 		B048DD759D7C785873530B05 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDAA0743304F74D3D1644FD /* Pods_Sample.framework */; };
 		EE55AB5FEE6B8262D82B72C6 /* Pods_Sample_AppleWatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BE7D7AC39A39820B5BC32E /* Pods_Sample_AppleWatch_Extension.framework */; };
+		EE7821ACD86988866712E08C /* Pods_Sample_AppleTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC87C8D645D52D5909DD9F3 /* Pods_Sample_AppleTv.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +213,7 @@
 		3ADE82682229C9C000D3FD7A /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		3ADE826A2229D0E000D3FD7A /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		3AE05FAD23AA934B0036BE36 /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
+		401D1B950AD97F67E6C47335 /* Pods-Sample-AppleTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-AppleTv.release.xcconfig"; path = "Target Support Files/Pods-Sample-AppleTv/Pods-Sample-AppleTv.release.xcconfig"; sourceTree = "<group>"; };
 		44B5C818ABAE48BF038C2B08 /* Pods-Sample-AppleWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-AppleWatch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Sample-AppleWatch Extension/Pods-Sample-AppleWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		5FDAA0743304F74D3D1644FD /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E91F0FCFB4F5DC6F65D06D /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +230,7 @@
 		AB5785A3263A0A6700558651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB5785A6263A0A6700558651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5785A8263A0A6700558651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB578681263B157800558651 /* Sample-AppleTv-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-AppleTv-Bridging-Header.h"; sourceTree = "<group>"; };
 		AB9E18B126371C7400225E57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AB9E18C52637238400225E57 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AB9E18D426372A7200225E57 /* ViewModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelState.swift; sourceTree = "<group>"; };
@@ -229,8 +246,10 @@
 		ABCDC1E8261D1EE100BEEF5C /* Sample-AppleWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-AppleWatch-Bridging-Header.h"; sourceTree = "<group>"; };
 		ABCDC221261D22AC00BEEF5C /* EnvironmentUtil+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentUtil+iOS.swift"; sourceTree = "<group>"; };
 		ABCDC226261D22FF00BEEF5C /* EnvironmentUtil+watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentUtil+watchOS.swift"; sourceTree = "<group>"; };
+		AFC87C8D645D52D5909DD9F3 /* Pods_Sample_AppleTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_AppleTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C423A0904BF6238458325775 /* Pods-Sample-AppleWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-AppleWatch Extension.release.xcconfig"; path = "Target Support Files/Pods-Sample-AppleWatch Extension/Pods-Sample-AppleWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		C7BE7D7AC39A39820B5BC32E /* Pods_Sample_AppleWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_AppleWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9AD258B599AEA9B9DBC228 /* Pods-Sample-AppleTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-AppleTv.debug.xcconfig"; path = "Target Support Files/Pods-Sample-AppleTv/Pods-Sample-AppleTv.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7821ACD86988866712E08C /* Pods_Sample_AppleTv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,7 @@
 				3A25865A25D65D8A00A57377 /* ezored.xcframework */,
 				5FDAA0743304F74D3D1644FD /* Pods_Sample.framework */,
 				C7BE7D7AC39A39820B5BC32E /* Pods_Sample_AppleWatch_Extension.framework */,
+				AFC87C8D645D52D5909DD9F3 /* Pods_Sample_AppleTv.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,7 +333,6 @@
 				3A2F22DA2214A57D00A2FB4F /* Extensions */,
 				3A2F22D02214A4DB00A2FB4F /* Info.plist */,
 				3A2F22CD2214A4DB00A2FB4F /* LaunchScreen.storyboard */,
-				3A2F23262214A7A800A2FB4F /* Localizable.strings */,
 				3A2F22D62214A57D00A2FB4F /* UI */,
 				3A2F22F72214A57D00A2FB4F /* Utils */,
 			);
@@ -400,6 +420,7 @@
 		3ADA2D8722162760005E6BD0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AB9E18D426372A7200225E57 /* ViewModelState.swift */,
 				3ADA2D8822162760005E6BD0 /* SimpleOption.swift */,
 			);
 			path = Models;
@@ -471,12 +492,9 @@
 		AB57859B263A0A6500558651 /* Sample-AppleTv */ = {
 			isa = PBXGroup;
 			children = (
-				AB57859C263A0A6500558651 /* AppDelegate.swift */,
-				AB57859E263A0A6500558651 /* ContentView.swift */,
-				AB5785A0263A0A6700558651 /* Assets.xcassets */,
-				AB5785A5263A0A6700558651 /* LaunchScreen.storyboard */,
-				AB5785A8263A0A6700558651 /* Info.plist */,
-				AB5785A2263A0A6700558651 /* Preview Content */,
+				AB578682263B15AB00558651 /* App */,
+				AB578683263B15B500558651 /* Resources */,
+				AB578684263B15BA00558651 /* UI */,
 			);
 			path = "Sample-AppleTv";
 			sourceTree = "<group>";
@@ -487,6 +505,34 @@
 				AB5785A3263A0A6700558651 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB578682263B15AB00558651 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB5785A8263A0A6700558651 /* Info.plist */,
+				AB578681263B157800558651 /* Sample-AppleTv-Bridging-Header.h */,
+				AB57859C263A0A6500558651 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB578683263B15B500558651 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB5785A2263A0A6700558651 /* Preview Content */,
+				AB5785A0263A0A6700558651 /* Assets.xcassets */,
+				AB5785A5263A0A6700558651 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB578684263B15BA00558651 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB57859E263A0A6500558651 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		AB9E188E263719D700225E57 /* Extensions */ = {
@@ -519,14 +565,6 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		AB9E18D326372A6800225E57 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AB9E18D426372A7200225E57 /* ViewModelState.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		ABCDC1A5261D0A4C00BEEF5C /* Sample-AppleWatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,7 +579,6 @@
 			isa = PBXGroup;
 			children = (
 				AB57844E2637469000558651 /* Extensions */,
-				AB9E18D326372A6800225E57 /* Models */,
 				ABCDC1E7261D1EA800BEEF5C /* Resources */,
 				ABCDC1E6261D1E9D00BEEF5C /* App */,
 				ABCDC1D7261D0B4800BEEF5C /* UI */,
@@ -594,6 +631,7 @@
 				AB9E188E263719D700225E57 /* Extensions */,
 				3ADA2D8722162760005E6BD0 /* Models */,
 				ABCDC22E261D239200BEEF5C /* App */,
+				3A2F23262214A7A800A2FB4F /* Localizable.strings */,
 				AB5784AF263771F800558651 /* SharedAssets.xcassets */,
 			);
 			path = Shared;
@@ -615,6 +653,8 @@
 				A6E91F0FCFB4F5DC6F65D06D /* Pods-Sample.release.xcconfig */,
 				44B5C818ABAE48BF038C2B08 /* Pods-Sample-AppleWatch Extension.debug.xcconfig */,
 				C423A0904BF6238458325775 /* Pods-Sample-AppleWatch Extension.release.xcconfig */,
+				FC9AD258B599AEA9B9DBC228 /* Pods-Sample-AppleTv.debug.xcconfig */,
+				401D1B950AD97F67E6C47335 /* Pods-Sample-AppleTv.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -647,9 +687,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB5785AB263A0A6700558651 /* Build configuration list for PBXNativeTarget "Sample-AppleTv" */;
 			buildPhases = (
+				5BE943CA27F3FD3C5281D358 /* [CP] Check Pods Manifest.lock */,
 				AB578596263A0A6500558651 /* Sources */,
 				AB578597263A0A6500558651 /* Frameworks */,
 				AB578598263A0A6500558651 /* Resources */,
+				5C8CCC72C0C4471FF5BDC801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -760,9 +802,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB57867C263B14FA00558651 /* Localizable.strings in Resources */,
 				AB5785A7263A0A6700558651 /* LaunchScreen.storyboard in Resources */,
 				AB5785A4263A0A6700558651 /* Preview Assets.xcassets in Resources */,
 				AB5785A1263A0A6700558651 /* Assets.xcassets in Resources */,
+				AB578677263B14E900558651 /* SharedAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,6 +853,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE943CA27F3FD3C5281D358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample-AppleTv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8CCC72C0C4471FF5BDC801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample-AppleTv/Pods-Sample-AppleTv-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample-AppleTv/Pods-Sample-AppleTv-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample-AppleTv/Pods-Sample-AppleTv-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B0DA28AAFAE2E78CF4DC1D40 /* [CP] Check Pods Manifest.lock */ = {
@@ -904,6 +987,7 @@
 				3A2F230B2214A57D00A2FB4F /* TimePartsExtension.swift in Sources */,
 				3A2F23032214A57D00A2FB4F /* StringBase64Extension.swift in Sources */,
 				3A2F23002214A57D00A2FB4F /* UITextFieldPaddingViewExtension.swift in Sources */,
+				AB578686263B15D900558651 /* ViewModelState.swift in Sources */,
 				3A2F23042214A57D00A2FB4F /* UIColorToRGBExtension.swift in Sources */,
 				3A2F230C2214A57D00A2FB4F /* DictionaryMergeExtension.swift in Sources */,
 				ABCDC222261D22AC00BEEF5C /* EnvironmentUtil+iOS.swift in Sources */,
@@ -930,8 +1014,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB57864A263B14D000558651 /* StringsLocalizedExtension.swift in Sources */,
+				AB57865E263B14DB00558651 /* CollectionExtensions.swift in Sources */,
 				AB57859F263A0A6500558651 /* ContentView.swift in Sources */,
+				AB578663263B14DD00558651 /* DateTimeUtil.swift in Sources */,
+				AB578659263B14D900558651 /* UIImageTintedExtension.swift in Sources */,
+				AB57864F263B14D300558651 /* StringExtensions.swift in Sources */,
+				AB578645263B14CD00558651 /* SwiftColorsExtension.swift in Sources */,
+				AB578687263B15D900558651 /* ViewModelState.swift in Sources */,
+				AB578672263B14E600558651 /* EnvironmentUtil.swift in Sources */,
 				AB57859D263A0A6500558651 /* AppDelegate.swift in Sources */,
+				AB578668263B14E100558651 /* SimpleOption.swift in Sources */,
+				AB578654263B14D600558651 /* StringBase64Extension.swift in Sources */,
+				AB57866D263B14E400558651 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1188,14 +1283,15 @@
 		};
 		AB5785A9263A0A6700558651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9AD258B599AEA9B9DBC228 /* Pods-Sample-AppleTv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sample-AppleTv/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sample-AppleTv/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Sample-AppleTv/Info.plist";
+				INFOPLIST_FILE = "Sample-AppleTv/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1203,22 +1299,24 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Sample-AppleTv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample-AppleTv/App/Sample-AppleTv-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
 		AB5785AA263A0A6700558651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401D1B950AD97F67E6C47335 /* Pods-Sample-AppleTv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sample-AppleTv/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sample-AppleTv/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Sample-AppleTv/Info.plist";
+				INFOPLIST_FILE = "Sample-AppleTv/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1226,9 +1324,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Sample-AppleTv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample-AppleTv/App/Sample-AppleTv-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};

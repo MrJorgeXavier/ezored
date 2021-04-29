@@ -21,7 +21,14 @@
 // THE SOFTWARE.
 
 import UIKit
-typealias SWColor = UIColor
+
+#if os(macOS)
+    import Cocoa
+    typealias SWColor = NSColor
+#else
+    import UIKit
+    typealias SWColor = UIColor
+#endif
 
 public extension SWColor {
     /**
